@@ -8,7 +8,7 @@ export const HeaderFixed = styled.header`
     top:0;
     left:0;
     box-shadow:0px 5px 4px -2px rgba(77,77,77,.34);
-`
+`;
 
 export const Menu = styled.nav`
     position:relative;
@@ -25,11 +25,10 @@ export const Menu = styled.nav`
         justify-content:flex-end;
         li {
             height:100%;
-            background:red;
             padding:10px 40px;
             display:flex;
             justify-content:center;
             align-items:center;
         }
     }
-`
+`;

@@ -22,9 +22,12 @@ export const WrapperAbout = styled.div`
     }
     span {
       display:block;
-      padding:10px 30px;
-      margin:34px auto;
+      padding:5px 0;
+      margin-bottom:75px;
       font-size:1.34em;
+    }
+    .title-name {
+      text-transform:uppercase;
     }
   }
 `;
@@ -34,5 +37,5 @@ export const ProfilePicture = styled.div`
   height:250px;
   background:${({ theme }) => theme.dark};
   border-radius:50%;
-  margin:75px auto;
+  margin:105px auto 30px auto;
 `;

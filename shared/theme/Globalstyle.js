@@ -1,6 +1,7 @@
-import { createGlobalStyle } from "styled-components"
-
-export const GlobalStyles = createGlobalStyle`
+import { createGlobalStyle } from 'styled-components';
+// eslint-disable-next-line import/named
+export { darkTheme, lightTheme } from './theme';
+export default createGlobalStyle`
   *{
     margin:0;
     padding:0;
@@ -55,4 +56,4 @@ export const GlobalStyles = createGlobalStyle`
   .txt-center {
     text-align:center;
   }
-`
+`;
